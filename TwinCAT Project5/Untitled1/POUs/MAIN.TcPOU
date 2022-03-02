@@ -4,13 +4,16 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	nVar1	: INT;
+	nVar2	: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[nVar1 := nVar1 + 1;]]></ST>
+      <ST><![CDATA[nVar1 := nVar1 + 1;
+nVar2 := nVar1*2;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="8" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
